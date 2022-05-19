@@ -1,0 +1,23 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+}
+
+body{
+    margin:0 auto;
+    text-align: center;
+    margin-top: 10vh;
+    background-color: bisque;
+    background-image: url("../img/gradient.jpg");
+   
+    
+}
+
+fieldset{
+    max-width: 500px;
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+    background-color: white;
+
+}

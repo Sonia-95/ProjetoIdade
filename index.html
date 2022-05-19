@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Projeto Idade</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Identificador de Idade</h1>
+    </header>
+
+    <section>
+        <fieldset>
+            <div>
+                <p>Ano de Nascimento:
+                    <input type="number" name="ano" id="textoAno" min="0">
+                <div id="aviso"></div>
+                </p>
+
+                <p>
+                    Sexo:
+                    <input type="radio" name="radioSexo" id="masculino" checked> <!-- checked já vem preenchido -->
+                    <label for="masculino"> Masculino</label>
+
+                    <input type="radio" name="radioSexo" id="feminino"></label>
+                    <label for="feminino"> Feminino</label>
+                </p>
+
+                <p>
+                    <input type="button" value="Verificar" id="button" onclick="verificar()">
+                </p>
+            </div>
+      
+            <div id="resposta"> </div>
+        </fieldset>
+    </section>
+    <footer>
+        <p>Desenvolvido por Sônia Oliveira</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
